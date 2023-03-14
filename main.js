@@ -22,8 +22,8 @@ let direction=false;
 let gamestart=false
 
 //reset
-image2.src='rock.png';
-image1.src='rock.png';
+image2.src='Rock.png';
+image1.src='Rock.png';
 
 timerid=setInterval(anim,15)
 
@@ -54,10 +54,10 @@ player1pick=1;
 player2pick=Math.floor(Math.random()*3)+1;
 
 if(player2pick==2){
-image2.src='paper.png';
+image2.src='Paper.png';
 }
 if(player2pick==3){
-image2.src='scissors.png';
+image2.src='Scissors.png';
 }
 }},1250);
 
@@ -87,8 +87,8 @@ alert("Draw!");
  let gamestart=false
  
  //reset
- image2.src='rock.png';
- image1.src='rock.png';
+ image2.src='Rock.png';
+ image1.src='Rock.png';
  
  timerid=setInterval(anim,15)
  
@@ -114,17 +114,17 @@ alert("Draw!");
  }}
  //image
  setTimeout(function(){
- image1.src="paper.png";
+ image1.src="Paper.png";
  
  if(gamestart=true){
  player1pick=2;
  player2pick=Math.floor(Math.random()*3)+1;
  
  if(player2pick==2){
- image2.src='paper.png';
+ image2.src='Paper.png';
  }
  if(player2pick==3){
- image2.src='scissors.png';
+ image2.src='Scissors.png';
  }
  }},1250);
  
@@ -154,8 +154,8 @@ function scissorpicked(){
  let gamestart=false
  
  //reset
- image2.src='rock.png';
- image1.src='rock.png';
+ image2.src='Rock.png';
+ image1.src='Rock.png';
  
  timerid=setInterval(anim,15)
  
@@ -181,17 +181,17 @@ function scissorpicked(){
  }}
  //image
  setTimeout(function(){
- image1.src="scissors.png";
+ image1.src="Scissors.png";
  
  if(gamestart=true){
  player1pick=3;
  player2pick=Math.floor(Math.random()*3)+1;
  
  if(player2pick==2){
- image2.src='paper.png';
+ image2.src='Paper.png';
  }
  if(player2pick==3){
- image2.src='scissors.png';
+ image2.src='Scissors.png';
  }
  }},1250);
  
