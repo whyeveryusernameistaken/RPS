@@ -1,0 +1,77 @@
+*{
+margin:0;
+padding:0;
+font-family:monospace;
+}
+body{
+background:#b8f0f2;
+
+padding-top:10vh;
+}
+p{
+font-size:3vw;
+border:2px solid;
+border-radius:10px;
+padding:2px;
+}
+.gameboard{
+border:2px solid;
+border-radius:20px;
+width:80vw;
+height:40vw;
+position:relative;
+margin:0 auto 0 auto;
+background:#ffe79e;
+overflow:hidden;
+}
+/*player1*/
+#pyou {
+position:absolute;
+inset:20% auto auto 10%;
+}
+#image1{
+width:20vw;
+height:20vw;
+
+position:absolute;
+inset:20% auto auto 15%;
+}
+#image1 img {
+max-width:100%;
+transform:rotate(90deg);
+}
+/*player2*/
+#penemy {
+position:absolute;
+inset:20% 10% auto auto;
+}
+#image2{
+width:20vw;
+height:20vw;
+
+position:absolute;
+inset:20% 15% auto auto;
+}
+#image2 img {
+max-width:100%;
+transform:scaleX(-1) rotate(90deg);
+}
+
+.buttons {
+position:absolute;
+inset:auto auto 2vh 35%;
+display:flex;
+}
+#rock,#scissor,#paper{
+all:unset;
+
+width:6vw;
+border:2px solid;
+border-radius:20px;
+padding:2px;
+margin:2px;
+background:#ffe2c4;
+}
+.bttnpic {
+max-width:100%;
+}
